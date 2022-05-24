@@ -21466,7 +21466,7 @@ a.u-button-style.u-border-20 {
 }
 /*begin-variables font-family*/
 .u-body {
-  font-family: 'Didact Gothic';
+  font-family: 'Open Sans',sans-serif;
 }
 h1,
 h2,
@@ -21495,7 +21495,7 @@ h6 {
 /*end-variables color*/
 /*begin-variables font*/
 .u-custom-font.u-text-font {
-  font-family: 'Didact Gothic' !important;
+  font-family: 'Open Sans',sans-serif !important;
 }
 .u-custom-font.u-heading-font {
   font-family: Roboto,sans-serif !important;
@@ -36752,31 +36752,10 @@ a.u-link.u-text-hover-grey-90:hover {
   min-height: 83px;
 }
 
-.u-header .u-social-icons-1 {
-  white-space: nowrap;
-  height: 32px;
-  min-height: 16px;
-  width: 116px;
-  min-width: 68px;
-  margin: 10px auto 0 1024px;
-}
-
-.u-header .u-icon-1 {
-  color: rgb(59, 89, 152) !important;
-}
-
-.u-header .u-icon-2 {
-  color: rgb(85, 172, 238) !important;
-}
-
-.u-header .u-icon-3 {
-  color: rgb(197, 54, 164) !important;
-}
-
 .u-header .u-image-1 {
   width: 169px;
   height: 64px;
-  margin: -48px auto 0 0;
+  margin: 10px auto 0 0;
 }
 
 .u-header .u-logo-image-1 {
@@ -36792,12 +36771,7 @@ a.u-link.u-text-hover-grey-90:hover {
   font-size: 1.25rem;
 }
 @media (max-width: 1199px) {
-  .u-header .u-social-icons-1 {
-    margin-left: 924px;
-  }
-
   .u-header .u-image-1 {
-    margin-top: -48px;
     margin-left: -100px;
   }
 
@@ -36807,10 +36781,6 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 991px) {
-  .u-header .u-social-icons-1 {
-    margin-left: 814px;
-  }
-
   .u-header .u-image-1 {
     margin-left: -210px;
   }
@@ -36820,10 +36790,6 @@ a.u-link.u-text-hover-grey-90:hover {
   }
 }
 @media (max-width: 767px) {
-  .u-header .u-social-icons-1 {
-    margin-left: 724px;
-  }
-
   .u-header .u-image-1 {
     margin-left: -300px;
   }
