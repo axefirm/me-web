@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("images/b8c4843b-de7c-42da-ada6-31ca9cb90a4c-18.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("images/b8c4843b-de7c-42da-ada6-31ca9cb90a4c-19.jpg");
   background-position: 50% 50%;
   min-height: 830px;
 }
@@ -208,7 +208,7 @@
 }
 
 .u-section-2 .u-image-3 {
-  background-image: url("images/c2781724-4b8e-4813-90c8-7e89d2b75994.png");
+  background-image: url("images/c2781724-4b8e-4813-90c8-7e89d2b75994.png?rand=2980");
   min-height: 594px;
   background-position: 50% 50%;
   --animation-custom_in-scale: 1;
