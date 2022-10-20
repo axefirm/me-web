@@ -1,5 +1,5 @@
  .u-section-1 {
-  background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("images/b8c4843b-de7c-42da-ada6-31ca9cb90a4c-18.jpg");
+  background-image: linear-gradient(0deg, rgba(0,0,0,0.25), rgba(0,0,0,0.25)), url("images/b8c4843b-de7c-42da-ada6-31ca9cb90a4c.jpg");
   background-position: 50% 50%;
   min-height: 830px;
 }
@@ -25,7 +25,7 @@
   --animation-custom_in-opacity: 0;
   --animation-custom_in-rotate: 0deg;
   --animation-custom_in-scale: 1;
-  margin: -667px auto 60px calc(((100% - 1140px) / 2));
+  margin: -573px auto 60px calc(((100% - 1140px) / 2));
 }
 
 .u-section-1 .u-container-layout-1 {
@@ -83,7 +83,7 @@
 
   .u-section-1 .u-group-1 {
     width: 375px;
-    margin-top: -682px;
+    margin-top: -1317px;
     margin-left: calc(((100% - 1140px) / 2) + 210px);
   }
 
@@ -110,7 +110,7 @@
 
   .u-section-1 .u-group-1 {
     width: 490px;
-    margin-top: -670px;
+    margin-top: -1305px;
     margin-left: calc(((100% - 1140px) / 2) + 300px);
   }
 
@@ -142,7 +142,7 @@
 
   .u-section-1 .u-group-1 {
     width: 317px;
-    margin-top: -775px;
+    margin-top: -1410px;
     margin-left: calc(((100% - 1140px) / 2) + 400px);
   }
 
@@ -208,7 +208,7 @@
 }
 
 .u-section-2 .u-image-3 {
-  background-image: url("images/c2781724-4b8e-4813-90c8-7e89d2b75994-35.png?rand=f15b");
+  background-image: url("images/c2781724-4b8e-4813-90c8-7e89d2b75994.png?rand=1c9b");
   min-height: 594px;
   background-position: 50% 50%;
   --animation-custom_in-scale: 1;
