@@ -5,10 +5,9 @@ import { FadeIn } from './FadeIn'
 // import glass from '@/images/GLASS.png'
 
 const stats = [
-  { id: 1, name: 'Creators on the platform', value: '10000', time: '2.75' },
-  { id: 2, name: 'Flat platform fee', value: '20000', time: '3.75' },
-  { id: 3, name: 'Uptime guarantee', value: '30000', time: '4.75' },
-  { id: 4, name: 'Paid out to creators', value: '40000', time: '5.75' },
+  { id: 1, name: 'Нийт хэрэглэгчийн тоо', value: '1500', time: '2.75' },
+  { id: 2, name: 'Байгууллагын тоо', value: '10', time: '3.75' },
+  { id: 3, name: 'Аппаар дамжин гарсан зээлийн тоо', value: '3000', time: '4.75' },
 ]
 export function UserCount() {
   return (
@@ -23,11 +22,10 @@ export function UserCount() {
           className='rounded-3xl backdrop-blur-md bg-gradient-to-br from-[#0E0E0E52] from-10% to-[#494548AF] to-24% border-[solid] border-[0.1rem] border-gray-500'>
           <div className='p-5'>
             <h2 className="text-4xl font-medium tracking-tight text-white">
-              LOREM IPSUM DOLOR SIT AMET
+              Таны үйлчлүүлэгчийн ялалт бол таны хувьд ялалт юм
             </h2>
             <p className="mt-6 text-lg leading-8 text-white">
-              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Maiores impedit perferendis suscipit eaque, iste
-              dolor cupiditate blanditiis ratione.
+              Үйлчлүүлэгчдэдээ илүү ойр ажиллах боломжийг манай хэтэвч танд олгож байна. Манайд нэгдээд үйлчлүүлэгчдэдээ аппаас зээл болон хадгаламжийн үйлчилгээг онлайнаар авах боломжийг олгоорой.
             </p>
             <FadeIn>
               <div className='flex items-center place-content-center' >
@@ -54,4 +52,5 @@ export function UserCount() {
 
   )
 }
+
 
