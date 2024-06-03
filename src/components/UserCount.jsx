@@ -7,7 +7,7 @@ import { FadeIn } from './FadeIn'
 const stats = [
   { id: 1, name: 'Нийт хэрэглэгчийн тоо', value: '1500', time: '2.75' },
   { id: 2, name: 'Байгууллагын тоо', value: '10', time: '3.75' },
-  { id: 3, name: 'Аппаар дамжин гарсан зээлийн тоо', value: '3000', time: '4.75' },
+  // { id: 3, name: 'Аппаар дамжин гарсан зээлийн тоо', value: '3000', time: '4.75' },
 ]
 export function UserCount() {
   return (
