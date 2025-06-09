@@ -3,6 +3,7 @@ import { Policy } from '@/components/Policy'
 export const metadata = {
   title: 'Privacy policy',
 }
+export const dynamic = 'force-dynamic';
 
 export default function PolicyPage({ searchParams }) {
   const whitelabelParam = searchParams?.whitelabel
