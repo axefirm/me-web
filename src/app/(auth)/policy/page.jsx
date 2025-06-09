@@ -5,9 +5,18 @@ export const metadata = {
 }
 export const dynamic = 'force-dynamic';
 
+
+export async function generateStaticParams() {
+  return [
+    { whitelabel: 'arvindem' },
+    { whitelabel: 'solongo' },
+    { whitelabel: 'meapp' },
+  ]
+}
+
 export default function PolicyPage({ searchParams }) {
   const whitelabelParam = searchParams?.whitelabel
-  
+
   // Determine email based on whitelabel
   const email = (() => {
     switch (whitelabelParam) {
@@ -19,12 +28,12 @@ export default function PolicyPage({ searchParams }) {
         return 'contact@fiba.mn'
     }
   })()
-  
+
   // Check if whitelabel is arvindem or solongo, otherwise use 'Me app'
   const whitelabel = (whitelabelParam === 'arvindem' || whitelabelParam === 'solongo')
     ? whitelabelParam
     : 'Me app'
-  
+
   return (
     <>
       <Policy whitelabel={whitelabel} email={email} />
