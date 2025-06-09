@@ -4,7 +4,7 @@ export const metadata = {
   title: 'Privacy policy',
 }
 // export const dynamic = 'force-dynamic';
-
+export const dynamic = "error"; // keep this to force static
 
 export async function generateStaticParams() {
   return [
@@ -14,8 +14,8 @@ export async function generateStaticParams() {
   ]
 }
 
-export default function PolicyPage({ searchParams }) {
-  const whitelabelParam = searchParams?.whitelabel
+export default function PolicyPage({ params }) {
+  const { whitelabelParam } = params;
 
   // Determine email based on whitelabel
   const email = (() => {
