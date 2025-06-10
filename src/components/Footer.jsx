@@ -67,7 +67,7 @@ export function Footer() {
           <Link href="https://www.facebook.com/me.app.Mongolia" aria-label="FaceBook">
             <Image width={30} src={facebook} alt="FaceBook" color='white' />
           </Link>
-          <Link href="/policy" className='text-white opacity-100 transition xm:py-3 ease-in-out sm:py-3 hover:opacity-75'>
+          <Link href="/policy/meapp" className='text-white opacity-100 transition xm:py-3 ease-in-out sm:py-3 hover:opacity-75'>
             Privacy Policy
           </Link>
           <Link href="/FAQs" className='text-white opacity-100 transition xm:py-3 ease-in-out hover:opacity-75'>

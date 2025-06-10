@@ -120,7 +120,7 @@ export function Header() {
             <Button href="/FAQs" className=" lg:block bg-black text-white hover:bg-[#d62976]">
               Түгээмэл асуултууд
             </Button>
-            <Button href="/policy" className="bg-black text-white hover:bg-[#d62976]">
+            <Button href="/policy/meapp" className="bg-black text-white hover:bg-[#d62976]">
               Privacy Policy
             </Button>
           </div>

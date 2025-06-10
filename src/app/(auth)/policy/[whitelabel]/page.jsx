@@ -15,11 +15,12 @@ export async function generateStaticParams() {
 }
 
 export default function PolicyPage({ params }) {
-  const { whitelabelParam } = params;
+  const { whitelabel } = params;
 
   // Determine email based on whitelabel
   const email = (() => {
-    switch (whitelabelParam) {
+  
+    switch (whitelabel) {
       case 'arvindem':
         return 'arvindem2021@gmail.com'
       case 'solongo':
@@ -29,10 +30,7 @@ export default function PolicyPage({ params }) {
     }
   })()
 
-  // Check if whitelabel is arvindem or solongo, otherwise use 'Me app'
-  const whitelabel = (whitelabelParam === 'arvindem' || whitelabelParam === 'solongo')
-    ? whitelabelParam
-    : 'Me app'
+
 
   return (
     <>

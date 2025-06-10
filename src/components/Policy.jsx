@@ -29,10 +29,10 @@ export function Policy(props) {
             Effective Date: {props.whitelabel == 'solongo' ? '2024/05/03' : '2025/06/09'}
           </div>
           <div className="mt-6 text-lg text-white px-8 py-6">
-            <p className='font-bold'>Introduction</p> This Privacy Policy describes how {props.whitelabel} app collects, uses, and protects your information. Your privacy is important to us, and we are committed to handling your personal data with care and in compliance with applicable data protection laws.</div>
+            <p className='font-bold'>Introduction</p> This Privacy Policy describes how <b>{props.whitelabel} app</b> collects, uses, and protects your information. Your privacy is important to us, and we are committed to handling your personal data with care and in compliance with applicable data protection laws.</div>
           <div className="mt-6 text-lg text-white px-8 py-6">
             <p className='font-bold text-xl mb-4'>Information We Collect</p>
-            <p className='mb-4'>This Privacy Policy describes how {props.whitelabel} app collects, uses, and protects your information. Your privacy is important to us, and we are committed to handling your personal data with care and in compliance with applicable data protection laws.</p>
+            <p className='mb-4'>This Privacy Policy describes how <b>{props.whitelabel} app</b> collects, uses, and protects your information. Your privacy is important to us, and we are committed to handling your personal data with care and in compliance with applicable data protection laws.</p>
             
             <p className='mb-4'>We may collect the following types of personal data when you use our app:</p>
 
@@ -54,7 +54,7 @@ export function Policy(props) {
               <ul className='list-disc pl-6 space-y-1'>
                 <li>IP address</li>
                 <li>Device model and OS version</li>
-                <li>App usage statistics</li>
+                {/* <li>App usage statistics</li> */}
                 <li>Crash logs and diagnostic data</li>
               </ul>
             </div>
