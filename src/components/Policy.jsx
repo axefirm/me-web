@@ -22,18 +22,22 @@ export function Policy(props) {
             Privacy Policy
           </h1>
           <hr />
+
           <div className="mt-6 text-lg text-white px-8">
+            App name: {props.whitelabel} app
+          </div>
+          <div className="text-lg text-white px-8">
             Developer/Company Name: Fiba LLC
           </div>
           <div className="text-lg text-white px-8">
-            Effective Date: {props.whitelabel == 'solongo' ? '2024/05/03' : '2025/06/09'}
+            Effective Date: {props.whitelabel == 'meapp' ? '2022/07/28' : props.whitelabel == 'solongo' ? '2025/06/09' : '2025/06/09'}
           </div>
           <div className="mt-6 text-lg text-white px-8 py-6">
             <p className='font-bold'>Introduction</p> This Privacy Policy describes how <b>{props.whitelabel} app</b> collects, uses, and protects your information. Your privacy is important to us, and we are committed to handling your personal data with care and in compliance with applicable data protection laws.</div>
           <div className="mt-6 text-lg text-white px-8 py-6">
             <p className='font-bold text-xl mb-4'>Information We Collect</p>
             <p className='mb-4'>This Privacy Policy describes how <b>{props.whitelabel} app</b> collects, uses, and protects your information. Your privacy is important to us, and we are committed to handling your personal data with care and in compliance with applicable data protection laws.</p>
-            
+
             <p className='mb-4'>We may collect the following types of personal data when you use our app:</p>
 
             <div className='mb-6'>
