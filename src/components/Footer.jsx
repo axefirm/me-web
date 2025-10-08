@@ -42,7 +42,7 @@ export function Footer() {
           <div className='p-3'>
             <p className="text-base font-semibold text-white ">Холбоо</p>
             <li className='flex text-white p-2 opacity-100 transition ease-in-out hover:opacity-75'><Image src={at} alt='Email' height={20} /><a className='px-2' href='mailto:contact@fiba.mn' > contact@fiba.mn</a></li>
-            <li className='flex text-white p-2 opacity-100 transition ease-in-out hover:opacity-75'><Image src={phone} alt='Phone' height={20} />  <p className='px-2' >+976-99110013</p></li>
+            <li className='flex text-white p-2 opacity-100 transition ease-in-out hover:opacity-75'><Image src={phone} alt='Phone' height={20} />  <p className='px-2' >+976-75092211</p></li>
             <li className='flex text-white p-2 opacity-100 transition ease-in-out hover:opacity-75'><Image src={point} alt='Map point' className='align-start jutify-start' height={20} /><a className='px-2' href='https://maps.app.goo.gl/RXdveL2VzE94nGKN8'>Монгол улс, Улаанбаатар хот, Хан-Уул дүүрэг, 15-р хороо, Үйлдвэр, Богд жавзан дамба гудамж 12 байр, 1 тоот</a></li>
           </div>
           <div className="bg-white group relative -mx-4 flex items-center self-stretch p-4 transition-colors hover:bg-gray-100 sm:self-auto sm:rounded-2xl lg:mx-0 lg:self-auto lg:p-6">
