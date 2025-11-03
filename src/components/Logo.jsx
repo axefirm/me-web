@@ -2,15 +2,18 @@
 
 import meApp from '@/images/banks/me-app.png'
 import arvindem from '@/images/banks/arvindem.png'
+import bullCapital from '@/images/banks/bullcapital.png'
 import Image from "next/image"
 import { usePathname } from 'next/navigation'
 
 export function Logomark({ whitelabel }) {
   const pathname = usePathname()
-  const isArvindem = pathname?.includes('/policy/arvindem')
+  const label = whitelabel || pathname?.match(/\/policy\/(\w+)/)?.[1]?.toLowerCase()
+  const isArvindem = label === 'arvindem'
+  const isBullCapital = label === 'bullcapital'
 
-  const logoSrc = isArvindem ? arvindem : meApp
-  const logoAlt = isArvindem ? 'Arvin Dem' : 'Me App'
+  const logoSrc = isArvindem ? arvindem : isBullCapital ? bullCapital : meApp
+  const logoAlt = isArvindem ? 'Arvin Dem' : isBullCapital ? 'Bull Capital' : 'Me App'
 
   return (
     <Image 

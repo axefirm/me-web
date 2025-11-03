@@ -9,6 +9,7 @@ export const dynamic = "error"; // keep this to force static
 export async function generateStaticParams() {
   return [
     { whitelabel: 'arvindem' },
+    { whitelabel: 'BullCapital' },
     { whitelabel: 'solongo' },
     { whitelabel: 'meapp' },
   ]
@@ -19,12 +20,14 @@ export default function PolicyPage({ params }) {
 
   // Determine email based on whitelabel
   const email = (() => {
-  
-    switch (whitelabel) {
+
+    switch (whitelabel.toLowerCase()) {
       case 'arvindem':
         return 'arvindem2021@gmail.com'
       case 'solongo':
         return 'contact@scm.mn'
+      case 'bullcapital':
+        return 'info@bullcapital.mn'
       default:
         return 'contact@fiba.mn'
     }
